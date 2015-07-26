@@ -81,7 +81,17 @@
                     </div>
                     </div>
                 <div class="row">
-                    
+
+                    <table data-url="data1.json" data-height="299" data-sort-name="name" data-sort-order="desc" class="table sortable-theme-bootstrap">
+                        <thead>
+                            <tr>
+                                <th data-field="id" data-align="right" data-sortable="true">Item ID</th>
+                                <th data-field="name" data-align="center" data-sortable="true">Item Name</th>
+                                <th data-field="price" data-sortable="true">Item Price</th>
+                            </tr>
+                        </thead>
+                    </table>
+                
                 </div>
             </div>
             <!-- /.container-fluid -->
@@ -92,5 +102,7 @@
     <!-- /#wrapper -->
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/sortable.min.js"></script>
+    <link rel="stylesheet" href="css/sortable-theme-bootstrap.css" />
 </body>
 </html>
