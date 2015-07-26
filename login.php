@@ -69,7 +69,7 @@
 
         <input type="text" class="form-control" id="usr" placeholder="Usuário">
         <input type="password" class="form-control" id="pwd" placeholder="Senha">
-         <button type="button" class="btn btn-block">Entrar</button>
+        <button type="button" class="btn btn-block">Entrar</button>
       </form>
     </div>
     
