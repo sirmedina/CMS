@@ -426,4 +426,16 @@ ul.alert-dropdown {
 }*/
 .filters li:last-child > a:after {
   content: "";
-}   
+}
+
+/* T O O L T I P S */
+#screenshot{
+  width: 20%;
+  position:absolute;
+  border:1px solid #ccc;
+  background:#0b131b;
+  padding:5px;
+  display:none;
+  color:#fff;
+  }
+  #screenshot img{width: 100%;}

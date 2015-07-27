@@ -20,6 +20,10 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
+    <!-- Easy Tooltip -->
+    <script src="js/easy-tooltip.js" type="text/javascript"></script>
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
@@ -82,14 +86,83 @@
                     </div>
                 <div class="row">
 
-                    <table data-url="data1.json" data-height="299" data-sort-name="name" data-sort-order="desc" class="table sortable-theme-bootstrap">
+                    <table class="table-hover table sortable-theme-bootstrap" data-sortable>
                         <thead>
                             <tr>
-                                <th data-field="id" data-align="right" data-sortable="true">Item ID</th>
-                                <th data-field="name" data-align="center" data-sortable="true">Item Name</th>
-                                <th data-field="price" data-sortable="true">Item Price</th>
+                                <th>#</th>
+                                <th>Nome</th>
+                                <th>Categoria</th>
+                                <th data-sortable="false">Thumb</th>
+                                <th data-sortable="false">Zoom</th>
+                                <th data-sortable="false">Alterar</th>
                             </tr>
                         </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Marca da Yooou</td>
+                                <td>Branding</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/brand2.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/brand-2.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Campanha da Pastorini Spielzerg</td>
+                                <td>Manipulação</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/manipula2.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/manipula-2.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Campanha para Agência Bratus</td>
+                                <td>Manipulação</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/manipula1.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/manipula-1.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Tolpa - Nova Marca</td>
+                                <td>Branding</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/brand1.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/brand-1.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>QOD - Novo Site</td>
+                                <td>UI/UX</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/web1.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/web-1.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Mockup Isométrico</td>
+                                <td>UI/UX</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/web2.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/web-2.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Aplicativo Weply</td>
+                                <td>UI/UX</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/mobile3.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/mobile-3.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Ilustração 3d</td>
+                                <td>Ilustração</td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/illustra1.jpg" title="Thumb">ver</a></td>
+                                <td><a href="#" class="screenshot" rel="http://douglasmedina.com/galeria/img/portfolio/illustra.jpg" title="Zoom">ver</a></td>
+                                <td><a class="badge">Editar</a></td>
+                            </tr>
+                        </tbody>
                     </table>
                 
                 </div>
